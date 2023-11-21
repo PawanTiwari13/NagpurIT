@@ -2,11 +2,7 @@
     background-image: url('modern-circuit-board-hardware-62Z2WP5.jpg');
     background-repeat: no-repeat;
     height: 500px;
-    background-position: center;
-    background-size: 1500px;
-    background-blend-mode: overlay;
-    background-color: rgba(16, 16, 16, 0.81);
-
+    background-size: cover;
 }
 
 .aboutPageText {
@@ -22,10 +18,10 @@
 .yourJourneyAtNagpurIT {
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     font-weight: 700;
-    font-size: 42px;
     color: #ff7900;
+    justify-content: center;
+    margin-left: 30px;
     line-height: 3.2em;
-    padding-left: 525px;
 
 }
 
@@ -179,6 +175,7 @@
     background-blend-mode: overlay;
     background-size: cover;
     margin-top: 200px;
+    background-attachment: fixed;
 
 }
 .expertDiv{
