@@ -67,8 +67,9 @@
     color: #ff7900;
     justify-items: center;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 35px;
     margin-top: 20px;
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
     font-weight: bold;
 }
 
@@ -83,10 +84,10 @@
     color: #ff7900;
     justify-items: center;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 20px;
     font-weight: bold;
-
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
 }
 
 .aboutNagpurIT {
@@ -103,6 +104,8 @@
     margin-left: 30px;
     margin-right: 30px;
     font-size: 18px;
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
+
 }
 
 .descriptionTwo {
@@ -110,6 +113,8 @@
     margin-left: 50px;
     margin-right: 30px;
     font-size: 18px;
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
+
 }
 
 .worksAboutDiv {
@@ -129,12 +134,16 @@
 
 .worksAboutText {
     color: #ff6600;
-    margin-left: 80px
+    margin-left: 80px;
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
+
 }
 
 .experience {
     margin-left: 80px;
     color: white;
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
+
 }
 
 .rightImage {
@@ -157,6 +166,8 @@
     margin-left: 10px;
     color: white;
     margin-top: 5px;
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
+
 }
 
 .backgroundExpert {
@@ -171,17 +182,17 @@
 
 }
 .expertDiv{
-    justify-content: center;
-    flex-direction: row;
-    background-color: #ff7900;
     width: 1200px;
     height: 500px;
     margin-left: 200px;
-    display: flex;
     padding-top: 50px;
+    flex-direction: row;
+    display: flex;
+
 }
 .priyankaMadam{
-
+margin-left: 150px;
+    margin-top: 57px;
 }
 .expertImage{
     width: 250px;
@@ -189,4 +200,22 @@
     margin-bottom: 20px;
     position: relative;
 
+}
+.expertTextDiv{
+    margin-left: 50px;
+}
+.meetTeam{
+    background-color: #ff7900;
+    width: 120px;
+    height: 30px;
+    margin-left: 23px;
+
+}
+.TeamText{
+    padding-left: 10px;
+    font-size: 18px;
+    padding-top: 5px;
+    color: white;
+    font-family: 'Adamina', Georgia, "Times New Roman", serif;
+    font-weight: 100;
 }
