@@ -166,8 +166,27 @@
     background-position: center;
     background-origin: content-box;
     background-blend-mode: overlay;
-    background-color: rgba(16, 16, 16, 0.81);
     background-size: cover;
     margin-top: 200px;
+
+}
+.expertDiv{
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ff7900;
+    width: 1200px;
+    height: 500px;
+    margin-left: 200px;
+    display: flex;
+    padding-top: 50px;
+}
+.priyankaMadam{
+
+}
+.expertImage{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    position: relative;
 
 }
