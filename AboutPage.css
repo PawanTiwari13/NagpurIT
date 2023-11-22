@@ -1,15 +1,17 @@
 .aboutPageDiv {
     background-image: url('modern-circuit-board-hardware-62Z2WP5.jpg');
     background-repeat: no-repeat;
-    height: 500px;
+    height: 350px;
     background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #1e1e1e;
 }
 
 .aboutPageText {
     color: white;
     align-items: center;
     padding-left: 630px;
-    padding-top: 225px;
+    padding-top: 600px;
     font-size: 50px;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     position: relative;
@@ -26,16 +28,16 @@
 }
 
 .yourJourneyAtNagpurITDiv {
-    justify-content: center;
-    flex-direction: row;
+flex-wrap: wrap;
+    gap: 20px;
     display: flex;
 }
 
 .learningDiv {
     border-width: 3px;
     margin-left: 80px;
-    height: 350px;
-    width: 160px;
+    height: fit-content;
+    width: 200px;
     border-style: solid;
     border-color: #0f3a5d;
 }
@@ -43,7 +45,7 @@
 .practiceDiv {
     border-width: 3px;
     margin-left: 80px;
-    height: 350px;
+    height: fit-content;
     width: 160px;
     border-style: solid;
     border-color: #ff7900;
@@ -71,9 +73,7 @@
 
 .description {
     color: white;
-    font-size: 16px;
-    margin-left: 30px;
-    margin-right: 20px;
+    font-size: 14px;
 }
 
 .practiceText {
