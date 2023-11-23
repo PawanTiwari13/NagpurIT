@@ -29,7 +29,7 @@
 }
 
 .yourJourneyAtNagpurITDiv {
-flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 20px;
     display: flex;
 }
@@ -91,7 +91,6 @@ flex-wrap: wrap;
     height: 500px;
     justify-items: center;
     margin: 100px auto 1em;
-    flex-wrap: wrap;
 }
 
 .descriptionOne {
@@ -116,7 +115,6 @@ flex-wrap: wrap;
 
 .worksAboutDiv {
     display: flex;
-    flex-direction: row;
     margin-top: 60px;
     margin-right: 450px;
     margin-left: 30px;
