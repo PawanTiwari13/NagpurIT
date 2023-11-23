@@ -7,7 +7,6 @@
     background-position: center;
     background-color: #1e1e1e;
 }
-
 .aboutPageText {
     color: white;
     align-items: center;
@@ -17,7 +16,6 @@
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     position: relative;
 }
-
 .yourJourneyAtNagpurIT {
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     font-weight: 700;
@@ -39,6 +37,7 @@
     margin-left: 80px;
     height: fit-content;
     width: 200px;
+    max-height: 500px;
     border-style: solid;
     border-color: #0f3a5d;
 }
@@ -61,13 +60,7 @@
 }
 
 .learningText {
-    color: #ff7900;
-    justify-items: center;
-    font-size: 20px;
-    margin-left: 35px;
-    margin-top: 20px;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
-    font-weight: bold;
 }
 
 .description {
@@ -77,20 +70,15 @@
 }
 
 .practiceText {
-    color: #ff7900;
-    justify-items: center;
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    font-weight: bold;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
 }
 
 .aboutNagpurIT {
     width: 1000px;
     height: 500px;
-    justify-items: center;
+    justify-content: center;
     margin: 100px auto 1em;
+
 }
 
 .descriptionOne {
@@ -123,8 +111,10 @@
 
 .ashishSirImage {
     width: 500px;
-    height: 250px;
+    height: 350px;
     margin-bottom: 20px;
+    image-rendering: high-quality;
+
 }
 
 .worksAboutText {
