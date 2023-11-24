@@ -7,6 +7,7 @@
     background-position: center;
     background-color: #1e1e1e;
 }
+
 .aboutPageText {
     color: white;
     align-items: center;
@@ -16,6 +17,7 @@
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     position: relative;
 }
+
 .yourJourneyAtNagpurIT {
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     font-weight: 700;
@@ -98,54 +100,63 @@
     flex-direction: row;
     justify-content: center;
 }
+
 .worksAboutDiv {
     display: flex;
     background: #212121;
 }
 
 .ashishSirImage {
-    width:80%;
+    width: 80%;
     margin-bottom: 20px;
     image-rendering: high-quality;
 }
+
 .works-about-image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
 }
+
 .works-about-description-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 80%;
 }
+
 .worksAboutText {
     color: #ff6600;
     font-size: 14px;
     padding-bottom: 30px;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
 }
+
 .works-about-outer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .works-about-accomplishments {
     display: flex;
     flex-direction: row;
 }
+
 .experience {
     margin-bottom: 40px;
     font-size: 37px;
     color: white;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
 }
+
 .experience-text {
     font-size: 14px;
     color: white;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
 }
+
 .rightImage {
     width: 32px;
     height: 32px;
@@ -153,11 +164,13 @@
     /*margin-left: 80px;*/
     border-radius: 20px;
 }
+
 .rightDiv {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
 }
+
 .rightText {
     margin-left: 10px;
     color: white;
@@ -165,9 +178,10 @@
     font-size: 18px;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
 }
+
 .works-about-full-profile {
     background: #0D3F66;
-    padding:6px 20px;
+    padding: 6px 20px;
     font-size: 20px;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     color: #FFFFFF;
@@ -175,9 +189,10 @@
     margin-top: 20px;
     text-decoration: none;
 }
+
 .works-about-full-profile:hover {
     background: #0D3F66;
-    padding:6px 20px;
+    padding: 6px 20px;
     font-size: 20px;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     color: #FFFFFF;
@@ -185,48 +200,59 @@
     margin-top: 20px;
     text-decoration: none;
 }
+
 @media only screen and (min-width: 992px) {
     .works-about-outer-container {
         flex-direction: row;
-        width:90%;
+        width: 90%;
         align-items: flex-start;
     }
+
     .worksAboutDiv {
         justify-content: center;
     }
+
     .works-about-description-container {
         min-width: 375px;
     }
+
     .works-about-image-container {
         padding-top: 0;
         min-width: 375px;
     }
+
     .ashishSirImage {
-        width:80%;
+        width: 80%;
         margin-bottom: 20px;
         image-rendering: high-quality;
     }
 }
+
 @media only screen and (min-width: 1200px) {
     .ashishSirImage {
         min-width: 454px;
     }
+
     .works-about-description-container {
         min-width: 454px;
     }
 }
+
 @media only screen and (min-width: 1400px) {
     .ashishSirImage {
         width: 510px;
     }
+
     .works-about-description-container {
         max-width: 510px;
         margin-left: 60px;
     }
+
     .worksAboutDiv {
         width: 100%;
         justify-content: center;
     }
+
     .works-about-outer-container {
         justify-content: center;
     }
@@ -243,7 +269,8 @@
     background-color: #525050;
     padding: 70px;
 }
-.expertDiv{
+
+.expertDiv {
     width: 1200px;
     height: 500px;
     margin-left: 200px;
@@ -252,28 +279,33 @@
     display: flex;
 
 }
-.priyankaMadam{
-margin-left: 150px;
+
+.priyankaMadam {
+    margin-left: 150px;
     margin-top: 57px;
 }
-.expertImage{
+
+.expertImage {
     width: 250px;
     height: 250px;
     margin-bottom: 20px;
     position: relative;
 
 }
-.expertTextDiv{
+
+.expertTextDiv {
     margin-left: 50px;
 }
-.meetTeam{
+
+.meetTeam {
     background-color: #ff7900;
     width: 120px;
     height: 30px;
     margin-left: 23px;
 
 }
-.TeamText{
+
+.TeamText {
     padding-left: 10px;
     font-size: 18px;
     padding-top: 5px;
@@ -281,7 +313,8 @@ margin-left: 150px;
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
     font-weight: 100;
 }
-.font{
+
+.font {
     font-family: 'Adamina', Georgia, "Times New Roman", serif;
 
 }
